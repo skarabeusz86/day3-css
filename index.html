@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja pierwsza strona – Dzień 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Moja pierwsza strona HTML</h1>
+        <p>Uczę się zostać Full Stack Developerem.</p>
+    </header>
+
+    <nav>
+        <a href="#o-mnie">O mnie</a> |
+        <a href="#oferta">Co chcę robić</a> |
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <main>
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+            <p>Cześć! Nazywam się Michał i uczę się programowania od zera, aby tworzyć własne aplikacje.</p>
+            <p><img src="kot.jpg" alt="Moje zdjęcie" width="200"></p>
+        </section>
+
+        <section id="oferta">
+            <h2>Co chcę robić</h2>
+            <ul>
+                <li>Tworzyć aplikacje webowe</li>
+                <li>Budować własne SaaS-y</li>
+                <li>Automatyzować procesy w biznesie</li>
+            </ul>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Na razie możesz mnie znaleźć tutaj:</p>
+            <ul>
+                <li><a href="https://github.com/skarabeusz86" target="_blank">Mój GitHub (na razie pusty 😉)</a></li>
+            </ul>
+
+            <h3>Formularz kontaktowy (na przyszłość)</h3>
+            <form>
+                <label for="name">Imię:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Wiadomość:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                <button type="submit">Wyślij (na razie nic nie zrobi 😄)</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Michał – nauka programowania krok po kroku.</p>
+    </footer>
+
+</body>
+</html>
