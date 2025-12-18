@@ -5,7 +5,7 @@ HTML i CSS. Projekt pokazuje podstawy tworzenia struktury strony,
 stylowania oraz dobre praktyki pracy z kodem i GitHubem.
 
 🔗 **Live demo:**  
-https://skarabeusz86.github.io/NAZWA-REPO/
+https://skarabeusz86.github.io/portfolio/
 
 ---
 
@@ -71,6 +71,7 @@ Projekt został wykonany przy użyciu:
 ## 📬 Kontakt
 
 - GitHub: https://github.com/skarabeusz86
+- E-mail: bystronm2@gmail.com
 
 ---
 
